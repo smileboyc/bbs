@@ -1,0 +1,33 @@
+@charset "UTF-8";
+		.upload{
+		 padding: 0px 0px;
+		 height: 20px;
+		 line-height: 20px;
+		 position: relative;
+		 border: 1px solid black;
+		 text-decoration: none;
+		 color: #666;
+		}
+		.change{
+		 position: absolute;
+		 overflow: hidden;
+		 right: 0;
+		 top: 0;
+		 opacity: 0;
+		}
+
+			.btn{
+				margin-left: 10%;
+			}
+		.td_last{
+			width: 20%;
+		}
+		body{
+			background-image: url("../../img/注册图片.jpg"); 
+			opacity: 0.5;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+		.td2{
+			margin-left: 45%;
+		}

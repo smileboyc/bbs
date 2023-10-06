@@ -1,0 +1,124 @@
+    * {  
+        margin:0;  
+        padding:0;  
+    }  
+    body {  
+        font-size:12px;  
+        background:white;  
+    }  
+    div#MyEditor {  
+        margin:10px;  
+        border:1px solid #C5C5C5;  
+    }  
+    ul#toolBar {  
+        padding-left:4px;  
+        list-style-type:none;  
+        background:url(../images/bg.gif) repeat-x left center;  
+        height:30px;  
+        border-bottom:1px solid #C5C5C5;  
+    }  
+    ul#toolBar li {  
+        display:inline;  
+    }  
+    ul#toolBar li.line {  
+        width:4px;  
+        height:20px;  
+        display:block;  
+        float:left;  
+        margin:0 2px;  
+        margin-top:5px;  
+        background:url(../images/line.gif) no-repeat center;  
+    }  
+    ul#toolBar li.viewHTML {  
+        display:block;  
+        float:left;  
+        width:20px;  
+        height:20px;  
+        overflow:hidden;  
+        margin-top:5px;  
+    }  
+    ul#toolBar li.viewHTML input {  
+        display:block;  
+        width:20px;  
+        height:20px;  
+        margin:0;  
+        float:left;  
+    }  
+    ul#toolBar li a {  
+        display:block;  
+        height:22px;  
+        float:left;  
+        width:28px;  
+        margin:5px 2px 5px 2px;  
+    }  
+    ul#toolBar li a img {  
+        display:block;  
+        margin:1px auto;  
+    }  
+    ul#toolBar li a:hover img {  
+        border:1px solid #EEE;  
+        border-bottom-color:#999;  
+        border-right-color:#999;  
+        margin:0 auto;  
+    }  
+    ul#toolBar li a:active img {  
+        border:1px solid #999;  
+        border-bottom-color:#EEE;  
+        border-right-color:#EEE;  
+        margin:0 auto;  
+    }  
+    ul#toolBar img {  
+        border:none;  
+    }  
+    textarea#content {  
+        width:98%;  
+        height:340px;  
+        border:none;  
+        display:block;  
+    }  
+    iframe#EditorFrame {  
+        width:100%;  
+        height:340px;  
+        border:none;  
+    }  
+    div>textarea#content {  
+        width:100%;  
+    }  
+    table.portraitTable {  
+        position:absolute;  
+        left:400px;  
+        top:40px;  
+        border:2px solid #EEE;  
+        z-index:10;  
+        background:white;  
+        display:none;  
+    }  
+    table.portraitTable  caption,table.colorTable caption {  
+        background:#EEE;  
+        color:blue;  
+        height:20px;  
+        line-height:20px;  
+        padding-top:2px;  
+    }  
+    table.portraitTable td {  
+        border:1px solid #EEE;  
+        cursor:pointer;  
+    }  
+    table.colorTable {  
+        position:absolute;  
+        left:300px;  
+        top:40px;  
+        display:none;  
+        border:2px solid #EEE;  
+        background:white;  
+    }  
+    table.colorTable  td {  
+        width:12px;  
+        height:12px;  
+        overflow:hidden;  
+        font-size:1px;  
+        cursor:pointer;  
+        margin:0;  
+        padding:0;  
+        border:none;  
+    }  

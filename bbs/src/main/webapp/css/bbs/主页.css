@@ -1,0 +1,48 @@
+			.contentBox{border: 2px #dadada solid;width: 98%;margin: 0% auto;}
+			body{background-color:rga(255,255,255);}
+			.textContent{clear: both; border-bottom: 2px #d3d3d3 solid;width: 99%;margin: 0% auto;text-align: justify;}
+			a{text-decoration: none;}
+			p{text-indent: 40px;}
+			li{float: left;background-color: aqua;}
+			.buttom{font-size: 15px;clear: both;}
+			span{margin-right: 10px;}
+			/* 头部搜索 */
+			.inputContent{height: 35px;border-radius: 20px;border: 1px rgb(240,101,104) solid;width: 80%;margin-left: 10%;background-color: aliceblue;margin-top: 4px;font-size: 16px;text-indent: 30px;}
+			.headTitle{background-color:rgb(240,101,104) ;height:45px;position: fixed;width: 98%;top:0px}
+			.headTitle .icon-sousuo_o{position: absolute;top: 12px;left: 12%;font-size:23px}
+			/* 头部导航条 */
+			.dhButton{width: 18%;font-size: 20px;background-color:rgb(255,255,255);border: none;}
+			.dh{position: absolute;border-top: 1px rgb(240,101,104) solid;width: 100%;top: 45px;border-bottom: 1px #eee solid;background-color:rgb(255,255,255);}
+			.icon-caidan{font-size: 25px;}
+			
+			
+			.a{font-size: 20px;}
+			a:focus{outline:none;}
+			/* 底部导航条 */
+			.nav{position:fixed;bottom: 0%;width: 100%;background-color: #e9e9e9;margin: 0% auto;padding-top: 8px;}
+			.nav_a{width: 12%;font-size: 15px;text-align: center;margin-left: 7%;border: 0ch;background-color:#e9e9e9;}
+			.nav_a_left{margin-left: 2%;}
+			.nav_a_right{margin-right: 2%;}
+			.iconfont1{font-size: 25px;}
+			.blank{height:50px}
+			
+			/* 评论 */
+			.remark{clear: both;margin-bottom: 6px;overflow: auto;margin-top: 5px;}
+			hr{clear: both;}
+			body{margin: 0% 0px;}
+			.total{width: 100%;}
+			a{text-decoration: none;}
+			.titleContent1{font-size: 22px;text-indent: 30px;margin-bottom: 10px;width: 60%;float: left;text-align: justify;}
+			p{color: black;}
+			.imgContent1{width: 38%;float: right;margin-top: 35px;}
+			img{width: 100%;}
+			
+			
+			
+			.bottomLeft{float: left;}
+			.bottomRight{float: right;}
+			.titleContent{font-size: 22px;text-indent: 30px;margin-bottom: 10px;}
+			.img{float: left;width: 32%;}
+			.img1{margin-right:2%;margin-left:2%}
+			 button:focus{outline:none;}
+			 a:focus{outline:none;}

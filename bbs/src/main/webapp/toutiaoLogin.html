@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name='viewport' content="width=device-width">
+		<title></title>
+		<script src="./js/jquery/jquery-1.8.3.min.js"></script>
+		<link rel="stylesheet" href="./css/bbs/登录界面.css">
+<script>
+	$(function(){		
+		$("#login").bind("click",function(){
+			var student_num=document.getElementById("student_num").value;
+			var student_pwd=document.getElementById("student_pwd").value;
+			$.ajax({			
+				 type:"post",
+				 url:"bbslogin",
+				 data:{"student_num":student_num,"student_pwd":student_pwd},
+				  dataType:'text',
+				success:function(re)
+					{	
+						  if(re.trim()=="-1"){
+							//转到用户注册另一个网页
+							window.open('rigister.html','width=200,height=100');
+						}
+						else if(re.trim()=="0"){
+							$("#student_pwd").val("");
+							$("#student_pwd").focus();
+							window.open('toutiaologin.html','width=200,height=100');
+						}							
+						else{
+							//转到软件的主界面
+							window.open('advertisement.html','width=200,height=100');						
+						}				
+					 },		
+					error:function(re)
+					{ alert("no");  }
+			})
+		  		  	
+		})
+	})
+</script>	
+	</head>
+	<body>
+		<div class="loginBox">
+		<form action="login" method="GET" enctype="multipart/form-data">
+			<div class="div1">
+				<img src="./img/今日头条.jpg" alt=""><span>密码登录</span>
+			</div>
+			<div class="div2">
+				<input class="text" type="text" placeholder="账号/手机号" name="student_num" id="student_num" value="10000001" >
+				<hr>
+			</div>
+			<div class="div2">
+				<input class="text" type="password" placeholder="密码" name="student_pwd" id="student_pwd" value="11111"><a href="">找回密码</a>
+				<hr>
+			</div>		
+		</form>
+		<button id="login">立即登录</button>
+			<div class="div3">		
+				<input type="checkbox"><label for="">&nbsp;&nbsp;&nbsp;已阅读并同意"用户协议"和"隐私政策"</label>
+			</div>
+			<div class="div4">
+				遇到问题
+			</div>
+		</div>
+	</body>
+</html>

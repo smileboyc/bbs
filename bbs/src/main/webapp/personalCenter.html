@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name='viewport' content="width=device-width">
+		<link rel="stylesheet" href="./css/bbs/bbsTb.css">
+		<link rel="stylesheet" href="./css/bbs/个人中心.css">
+		<link rel="stylesheet" href="./css/table/beautifulTable.css">
+		<title></title>
+		<script src="./js/jsTools/bbsjs.js"></script>
+		<script src="./js/jquery/jquery-1.8.3.min.js"></script>
+
+		<script>		
+function updatePassword(){
+	var password=document.getElementById("password1").value;
+	alert(password)
+	$.ajax({
+	 type:"post",//提交数据方式post/get	
+	url:"updatePassword", 
+	data:{"password":password},//随便给一个无法参数
+	dateType:"text", //从后台向前台传数据时的格式json
+	success:function(re)   
+	{   
+		alert("修改成功")   
+		 },
+	error:function(re)
+		 { alert("no");
+		 }    
+	})
+}
+		</script>	
+	</head>
+	<body>
+		<!-- 个人信息 -->
+		<div class="messageBox">
+			<div class="boxImg">
+				<img src="./img/灰熊.jpg" alt="" class="messageImg">
+			</div>
+			<div class="boxName">
+				<span>小米</span>
+			</div>
+		</div>
+		<!-- 基本信息展示 -->
+		<div class="messageBox1">
+			<button class="firstButton"><label for="">0</label><br>关注</button>
+			<button><label for="">2</label><br>点赞</button>
+			<button><label for="">0</label><br>评论</button>
+			<button class="lastButton"><label for="">15</label><br>收藏</button>
+		</div>
+		<!-- 基本信息操作查看 -->
+		<div class="messageBox2">
+			<button class="firstButton"><label for="" class="iconfont icon-066bianjizhanghu"><br></label>修改信息</button>
+			<button><label for="" onclick="xgPassword('div1')" class="iconfont icon-xiugaimima"></label><br>修改密码</button>
+			<button><label for="" onclick="getCollect('div1')"class="iconfont icon-wodeshoucang"></label><br>我的收藏</button>
+			<button onclick="getRecord('div1')" class="lastButton" ><label for="" class="iconfont icon-lishijilu"></label><br>历史记录</button>
+		</div>
+		<div class="div1" id="div1">
+			
+		</div>
+		<div class="blank">
+		</div>
+		<!-- 底部导航条 -->
+		<div class="nav">
+			<button onclick="back()" class="nav_a nav_a_left" href=""><label for="" class="iconfont icon-houtui iconfont1"></label>后退</button>
+			<button onclick="skip()" class="nav_a " href=""><label for="" class="iconfont icon-shouye iconfont1"></label>首页</button>
+			<button onclick="fb()"class="nav_a " href=""><label for="" class="iconfont icon-fabu iconfont1"></label>发布</button>
+			<button class="nav_a" href=""><label for="" class="iconfont icon-zhuanfa iconfont1"></label>转发</button>
+			<button onclick="grzx()" class="nav_a nav_a_right" href=""><label for="" class="iconfont icon-yonghu iconfont1"></label>个人</button>
+		</div>
+	</body>
+</html>

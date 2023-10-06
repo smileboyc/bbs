@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<script src="./js/jsTools/bbsjs.js"></script>
+		<script src="./js/jquery/jquery-1.8.3.min.js"></script>
+		<script>
+			var num=5;
+			var timer=setInterval(function(){
+				num--;
+                document.getElementById("label1").innerHTML="跳过"+num;
+				if(num==0)
+				window.open('toutiao.html','width=200,height=100');			
+				if(num==-1)
+				window.close()
+			},1000)
+		</script>
+		<style>
+		body,html{padding: 0 0;margin: 0 0;}
+			.bigBox{}
+			.adsBox{width: 100%;border-radius: 5px;}
+			img{width: 100%;border-radius: 5px;height: 100%;}
+			.bt1Box{position: fixed;top: 3%;right: 4%;}
+			.bt1{border:1px solid white;border-radius: 15px;font-size: 14px;width: 55px;height: 28px;color: #dedede;background-color: rgba(255, 255, 255, 0.1);}
+			.text1{position: fixed;top: 2%;left: 2%;font-size: 10px;color: white;}
+			.bt2Box{position: fixed;bottom: 5%;width: 100%;}
+			.bt2{border:1px solid white;width: 60%;text-align: center;font-size: 18px;margin: 0% 20%;border-radius: 20px;height: 40px;color: #dedede;background-color: rgba(255, 255, 255, 0.1);}
+			a{text-decoration: none; color: white;font-size: 15px;}
+			a:focus{outline: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+			button:focus{outline: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+		</style>
+	</head>
+	<body>
+         <div class="bigBox">
+			<div class="adsBox">
+				<img src="/loadFile/bbs/ads/广告1.webp" alt="">
+			</div>
+	        <div class="bt1Box">
+				<button onclick="skip()" class="bt1"> <label for="" id="label1">跳过5</label></button>
+			</div>
+			<div class="text1">
+				<span>广告</span>
+			</div>
+			<div class="bt2Box">
+			    <button  class="bt2"><label for="">跳转详细页或第三方应用</label></button>
+				<a href=""></a>
+			</div>
+		</div>
+	</body>
+</html>

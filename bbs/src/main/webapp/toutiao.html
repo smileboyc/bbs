@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">		
+		<meta name='viewport' content="width=device-width">
+		<link rel="stylesheet" href="./css/bbs/bbsTb.css">
+		<link rel="stylesheet" href="./css/bbs/主页.css">
+		<title></title>		
+		<script src="./js/jsTools/bbsjs.js"></script>
+		<script src="./js/jquery/jquery-1.8.3.min.js"></script>
+			<script>				
+				var timer=setInterval(function(){				
+					getNum()
+					update()
+					}
+				,30000)
+				getSession()
+			</script>
+	</head>
+	<body>
+		<div class="contentBox" id="contentBox">
+			<div class="a">
+				论坛首页:&nbsp;&nbsp;<label for="" id="p1"></label>&nbsp;&nbsp;在线数:&nbsp;&nbsp;<label for="" id="p2"></label>&nbsp;&nbsp;当前在线ID:&nbsp;&nbsp;<label for="" id="p3"></label>
+				<button >展示</button>
+			</div>
+			<div class="headTitle">
+				<i class="iconfont icon-sousuo_o"></i>
+				<input type="text" class="inputContent" value="交流英语800句子音频">
+								<div class="dh">
+					<button class="dhButton">关注</button>
+					<button class="dhButton">推荐</button>
+					<button class="dhButton">热榜</button>
+					<button class="dhButton">发现</button>				
+					<button class="dhButton"><label for="" class="iconfont icon-caidan"></label></button>
+				</div>
+			</div>
+			<div class="blank">
+			</div>
+			<div id="total">
+				<div class="textContent" id="textContent">
+				</div>
+			</div>
+		</div>
+		<div class="blank">
+		</div>
+		<div class="nav">
+			<button onclick="back()" class="nav_a nav_a_left" href=""><label for="" class="iconfont icon-houtui iconfont1"></label>后退</button>
+			<button onclick="skip()" class="nav_a " href=""><label for="" class="iconfont icon-shouye iconfont1"></label>首页</button>
+			<button onclick="fb()"class="nav_a " href=""><label for="" class="iconfont icon-fabu iconfont1"></label>发布</button>
+			<button class="nav_a" href=""><label for="" class="iconfont icon-zhuanfa iconfont1"></label>转发</button>
+			<button onclick="grzx()" class="nav_a nav_a_right" href=""><label for="" class="iconfont icon-yonghu iconfont1"></label>个人</button>
+		</div>
+	</body>
+	<script>
+	var re1=bbs()
+	display("total",re1)
+	</script>
+</html>

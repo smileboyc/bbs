@@ -1,0 +1,40 @@
+			/* 个人信息 */
+			.messageBox{margin-top: 8%;overflow: auto;}
+			.boxImg{float: left;}
+			.messageImg{width: 50px;height: 50px;border-radius: 50%;}
+			.boxName{float: left;margin-left: 5%;margin-top: 4%;font-size: 25px;}
+			/* 展示数据 */
+			.messageBox1{margin-top: 5%;}
+			.messageBox1 button{width: 15%;font-size: 20px;margin-right: 10%;border: none;background-color: rgb(247,247,247);color: #c1c1c1;}
+			.messageBox1 label{font-size:25px;color: black;}
+			.messageBox1 .lastButton{margin-right:2%;}
+			.messageBox1 .firstButton{margin-left:2%;}
+			body{background-color: rgb(247,247,247);}
+			/* 修改数据 */
+			.messageBox2{margin-top: 8%;background-color: rgb(255,255,255);border-radius: 5px;}
+			.messageBox2 button{font-size: 8px;width: 20%;margin-right: 3%;border: none;background-color: rgb(255,255,255);margin-top: 4%;margin-bottom: 4%;}
+			.messageBox2 .iconfont{font-size: 35px;}
+			.icon-066bianjizhanghu{color: rgb(88,162,251);}
+			.icon-xiugaimima{color: rgb(255,108,134);}
+			.icon-wodeshoucang{color: rgb(250,205,42);}
+			.icon-lishijilu{color: rgb(39,222,179);}
+			.messageBox2 .lastButton{margin-right:2%;}
+			.messageBox2 .firstButton{margin-left:2%;}
+			/* 底部导航条 */
+			.nav{position:fixed;bottom: 0%;width: 100%;background-color: #e9e9e9;margin: 0% auto;padding-top: 8px;}
+			.nav_a{width: 12%;font-size: 15px;text-align: center;margin-left: 7%;border: 0ch;background-color:#e9e9e9;}
+			.nav_a_left{margin-left: 2%;}
+			.nav_a_right{margin-right: 2%;}
+			.iconfont1{font-size: 25px;}
+			.blank{height:50px}
+			.div1{margin-top: 10%;}
+			/* 修改密码 */
+			.xiugaiBox{width: 98%;margin: 0% auto};
+			.password1 span{margin-right: 10%;}
+			.password1 input{border: none;margin-left: 5%;}
+			.password1 input:focus{outline:none;}
+			.password1{margin-bottom: 10%;margin-left: 5%;}
+			ul{font-size: 12px;margin-bottom: 6%;}
+			.tj{width: 100%;height: 35px;font-size: 20px;background-color: #5ee2ff;border: none;border-radius: 20px;color: white;}
+			.ts label{font-size: 8px;margin-left: 5%;}
+			.ts{margin-top: 5%;}

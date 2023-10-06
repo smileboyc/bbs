@@ -1,0 +1,33 @@
+			.bigTz{width: 98%;margin: 0px auto;}
+			.Tztitle{font-size: 28px;padding-bottom: 20PX;text-indent: 50px;word-spacing: 20px;text-align: justify;}
+			.TzFbr{overflow: auto;}
+			.imgTp{border-radius: 50%;width:35px ;height: 35px;}
+			.Fbr{font-size: 15px;margin-left: 5px;}
+			.bt1{background-color: red;color: white;border: 1px red solid;border-radius: 2px;margin-top: 15px;margin-right: 10px;width: 50px;height: 25px;line-height: 25px;}
+			.TzCont{margin-top: 20px;font-size: 20px;text-align: justify;}
+			.div3{float: right;margin-right: 20px;margin-top: 20px;}
+			
+			.remark{clear: both;margin-top: 50px;overflow: auto;}
+			.TzRepl{margin-bottom: 10px;}
+			.Tzdz{padding-top: 20px;float: right;margin-right: 10px;width: 27%; text-align: right; }
+			a{text-decoration: none;}
+			.TzRepl{clear: both;margin-top: 10px;}
+			.iconfont{font-size: 20px;margin-right: 5px;}
+			.TzZp{width: 80%;margin: 10px auto;margin-bottom: 0px;}
+			.huifuBt1{border: none;background-color: white;}
+			/* 帖子展示导航 */
+			body{margin: 0% 0px;}
+			.contentBox{width: 80%;margin:0 auto;background-color: #f8f8f8;border-radius: 5px;text-indent: 20px;float: left;border-radius: 5px;background-color: white;border: 1px #e8e8e8 solid;margin-left: 1%;}
+			.buttonFb{margin-right: 5px;float:right;border-radius: 12px;background-color: rgb(1,153,255);border: rgb(1,153,255);color: white;height: 25px;}
+			.nav{height: 7%; position:fixed;bottom:0%;width: 100%;margin:0 auto;background-color: #f8f8f8;margin: 1% auto;padding-top: 8px;}
+			.nav_a{width: 15%;font-size: 15px;text-align: center;margin-left: 2%; border: 0ch;background-color: #f8f8f8;}
+			.nav_a_left{margin-left: 0%;width:30%;border-radius: 20px;background-color: #f0f0f0;}
+			.nav_a_right{margin-right: 0%;}
+			.iconfont1{font-size: 22px;}
+			.remarkBox{position: fixed;bottom:2%;width: 100%;font-size:20px;display: none;}	
+			.blank{height:60px}
+			.contentBox:focus{outline:none;}
+			a:focus{outline:none;}
+			.fanhui{background-color:white;border:none;margin-left: 10px;background-color:  #f8f8f8;height:7%}
+			.icon-fanhui{font-size:30px}
+			.fanhuiDiv{position: fixed;top: 0%;width: 100%;background-color:  #f8f8f8;}

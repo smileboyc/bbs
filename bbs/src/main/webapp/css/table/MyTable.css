@@ -1,0 +1,17 @@
+.mytable1{
+	width: 95%;margin: 0 auto; text-align: center; height: auto;
+}
+.myTr1{ width: 100%;height: 30px;
+}
+.myTr1 div{ width: 24%; height: 100%;
+  float: left;
+  border-top: 1px red solid;
+  border-left: 1px red solid;	
+}
+ .myTd{ height: 100%;
+  float: left; margin: 0 auto;
+  border-top: 1px red solid;
+  border-left: 1px red solid;	
+}
+.mytdRight{ border-right: 1px red solid;}
+.mytdBottom{border-bottom: 1px red solid;}

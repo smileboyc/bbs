@@ -1,0 +1,53 @@
+.mytable1{
+	width: 95%;margin:0 auto;	
+	text-align: center;
+	height: auto;
+}
+.myTr1{
+	width: 100%; height: 30px;
+}
+.myTr1 div{  
+	border-top:1px solid #EE00aa; 
+	border-left: 1px solid #aa00aa;
+	width: 9%;
+	height: 100%;
+	padding-top: 8px;
+	float: left;
+}
+ .mytd1{
+	 
+ 	/*  border-top:1px solid #EE00aa; 
+ 	border-left: 1px solid #aa00aa; */
+	border: 1px solid #aa00aa;
+ 	 /* width: 19%; 如果事先不知道表格的列数,不能固定设置为百分比,要通过计算来增加CSS属性*/
+	text-align: center;
+	height: 100%;
+ 	padding-top: 8px;
+ 	float: left; 
+ }
+
+.mytdBottom{	 
+	border-bottom: 1px solid #EE00aa; 
+}
+.mytdRight{
+	border-right: 1px solid #aa00aa;
+}
+/* 第二种做法 */
+ .mytable2{
+ 	width: 95%;margin:0 auto;	
+ 	text-align: center;
+ 	height: auto;
+	background-color: #AA0000;
+ } 
+ .myTr2{
+ 	width: 100%; height: 30px;
+ }
+.myTr2 div{  
+ box-sizing: border-box;
+ 	border: 0px;background: #EEEEEE;
+	margin-top: 1px;
+	margin-left: 1px;  	
+	width: 24%; height: 96%;	 
+	float: left;
+}
+ 
